@@ -1,0 +1,1143 @@
+#MenuInicial{
+    background-color: lightseagreen;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 40vw;
+    position: absolute;
+    left: 34%;
+    top: 6%;
+    box-shadow: 1vw -1vw 0 rgb(0, 106, 155);
+}
+
+body{
+    background-color: black;
+}
+
+#txt{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding-left: 5.3vw;
+    padding-top: 2.5vw;
+    padding-bottom: 0.5vw;
+}
+
+#Botoes{
+    flex-direction: column;
+    display: flex;
+}
+
+.Operações{
+    height: 5vw;
+    background-color: rgb(32, 132, 178);
+    width: 100%;
+    font-size: 1.8vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0 0.5vw white, 0 -0.5vw white;
+    border: 0;
+}
+
+.i{
+    padding-top: 2.5vw;
+}
+
+.Operações:hover{
+    background-color: rgb(0, 13, 126);
+    transition: 1s;
+}
+
+#txt1{
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(0, 106, 155);
+    padding-left: 11vw;
+    padding-top: 0.3vw; 
+    display: none;
+}
+
+#txt2{
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(0, 106, 155);
+    padding-left: 8.5vw;
+    padding-top: 0.3vw; 
+    display: none;
+}
+
+#txt4{
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(0, 106, 155);
+    padding-left: 10vw;
+    padding-top: 0.3vw; 
+    display: none;
+}
+
+#txt3{
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(0, 106, 155);
+    padding-left: 6.3vw;
+    padding-top: 0.3vw; 
+    display: none;
+}
+
+#Valor1{
+    background-color:  rgb(0, 13, 126);
+    border-radius: 3vw;
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    color: white;
+    border: 0.2vw solid white;
+    text-align: center;
+    display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+#input1{
+    padding-left: 3.9vw;
+    padding-top: 2vw;
+    display: none;
+}
+
+#adi{
+    position: absolute;
+    left: 48%;
+    color: white;
+    font-size: 3vw;
+    top: 33%;
+    display: none;
+}
+
+#sub{
+    position: absolute;
+    left: 48%;
+    color: white;
+    font-size: 6vw;
+    font-weight: bolder;
+    top: 22%;
+    display: none;
+}
+
+#Mul{
+    position: absolute;
+    left: 47%;
+    color: white;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    top: 31%;
+    display: none;
+}
+
+#Div{
+    position: absolute;
+    left: 47%;
+    color: white;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    top: 31%;
+    display: none;
+}
+
+#Valor2{
+    background-color:  rgb(0, 13, 126);
+    border-radius: 3vw;
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    color: white;
+    border: 0.2vw solid white;
+    text-align: center;
+    display: none;
+}
+
+#input2{
+    padding-left: 3.9vw;
+    padding-top: 4vw;
+    display: none;
+}
+
+#igualdade{
+    padding-top: 8vw;
+    position: absolute;
+    left: 48%;
+    color: white;
+    font-size: 3vw;
+    top: 33%;
+    display: none;
+}
+
+#resultado{
+    background-color:  rgb(3, 24, 207);
+    width: 20vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    border-radius: 3vw;
+    display: none;
+}
+
+.bntaux{
+    width: 10vw;
+   height: 3vw;
+   border: 0;
+   background-color: rgb(0, 4, 250);
+   color: white;
+   font-size: 1.4vw;
+   border-radius: 10vw;
+   cursor: pointer;
+   transition: 1s;
+   font-weight: bolder;
+}
+
+.bntaux:hover{
+    background-color: rgb(0, 13, 126);
+    transition: 1s;
+}
+
+.aux{
+    padding-left: 4vw;
+    position: absolute;
+    top: 80%;
+    display: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 200px) {
+    #MenuInicial{
+        background-color: lightseagreen;
+        border-radius: 2vw;
+        width: 70vw;
+        height: 90vw;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        box-shadow: 1vw -1vw 0 rgb(0, 106, 155);
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    #txt{
+        font-size: 7vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: white;
+        padding-left: 14vw;
+        padding-top: 5vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    #Botoes{
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .Operações{
+        height: 9vw;
+        background-color: rgb(32, 132, 178);
+        width: 100%;
+        font-size: 4.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 1s;
+        box-shadow: 0 0.5vw white, 0 -0.5vw white;
+        border: 0;
+    }
+    
+    .i{
+        padding-top: 5vw;
+    }
+    
+    .Operações:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    #txt1{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 26vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt2{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 21vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt4{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 25vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt3{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 17vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #Valor1{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    
+    #input1{
+        padding-left: 13vw;
+        padding-top: 3vw;
+        display: none;
+    }
+    
+    #adi{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 33%;
+        display: none;
+    }
+    
+    #sub{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 9vw;
+        top: 26%;
+        display: none;
+    }
+    
+    #Mul{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Div{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Valor2{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    #input2{
+        padding-left: 13vw;
+        padding-top: 10vw;
+        display: none;
+    }
+    
+    #igualdade{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 44%;
+        display: none;
+    }
+    
+    #resultado{
+        background-color:  rgb(3, 24, 207);
+        width: 40vw !important;
+        height: 6vw;
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;   
+        border-radius: 6vw ;
+        padding-bottom: 3vw;
+    }
+
+    #js{
+        position: absolute;
+        top: 66%;
+        left: 21%;
+    }
+    
+    .bntaux{
+        width: 20vw;
+       height: 6vw;
+       border: 0;
+       background-color: rgb(0, 4, 250);
+       color: white;
+       font-size: 3vw;
+       border-radius: 10vw;
+       cursor: pointer;
+       transition: 1s;
+       font-weight: bolder;
+    }
+    
+    .bntaux:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    .aux{
+        position: absolute;
+        top: 80%;
+        display: none;
+        left: 15%;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: rgb(211, 211, 211);
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #MenuInicial{
+        background-color: lightseagreen;
+        border-radius: 2vw;
+        width: 70vw;
+        height: 90vw;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        box-shadow: 1vw -1vw 0 rgb(0, 106, 155);
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    #txt{
+        font-size: 7vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: white;
+        padding-left: 14vw;
+        padding-top: 5vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    #Botoes{
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .Operações{
+        height: 9vw;
+        background-color: rgb(32, 132, 178);
+        width: 100%;
+        font-size: 4.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 1s;
+        box-shadow: 0 0.5vw white, 0 -0.5vw white;
+        border: 0;
+    }
+    
+    .i{
+        padding-top: 5vw;
+    }
+    
+    .Operações:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    #txt1{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 26vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt2{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 21vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt4{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 25vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt3{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 17vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #Valor1{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    
+    #input1{
+        padding-left: 13vw;
+        padding-top: 3vw;
+        display: none;
+    }
+    
+    #adi{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 33%;
+        display: none;
+    }
+    
+    #sub{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 9vw;
+        top: 26%;
+        display: none;
+    }
+    
+    #Mul{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Div{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Valor2{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    #input2{
+        padding-left: 13vw;
+        padding-top: 10vw;
+        display: none;
+    }
+    
+    #igualdade{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 44%;
+        display: none;
+    }
+    
+    #resultado{
+        background-color:  rgb(3, 24, 207);
+        width: 40vw !important;
+        height: 6vw;
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;   
+        border-radius: 6vw ;
+        padding-bottom: 3vw;
+    }
+
+    #js{
+        position: absolute;
+        top: 66%;
+        left: 21%;
+    }
+    
+    .bntaux{
+        width: 20vw;
+       height: 6vw;
+       border: 0;
+       background-color: rgb(0, 4, 250);
+       color: white;
+       font-size: 3vw;
+       border-radius: 10vw;
+       cursor: pointer;
+       transition: 1s;
+       font-weight: bolder;
+    }
+    
+    .bntaux:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    .aux{
+        position: absolute;
+        top: 80%;
+        display: none;
+        left: 15%;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: rgb(211, 211, 211);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #MenuInicial{
+        background-color: lightseagreen;
+        border-radius: 2vw;
+        width: 70vw;
+        height: 90vw;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        box-shadow: 1vw -1vw 0 rgb(0, 106, 155);
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    #txt{
+        font-size: 7vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: white;
+        padding-left: 14vw;
+        padding-top: 5vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    #Botoes{
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .Operações{
+        height: 9vw;
+        background-color: rgb(32, 132, 178);
+        width: 100%;
+        font-size: 4.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 1s;
+        box-shadow: 0 0.5vw white, 0 -0.5vw white;
+        border: 0;
+    }
+    
+    .i{
+        padding-top: 5vw;
+    }
+    
+    .Operações:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    #txt1{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 26vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt2{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 21vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt4{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 25vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt3{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 17vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #Valor1{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    
+    #input1{
+        padding-left: 13vw;
+        padding-top: 3vw;
+        display: none;
+    }
+    
+    #adi{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 33%;
+        display: none;
+    }
+    
+    #sub{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 9vw;
+        top: 26%;
+        display: none;
+    }
+    
+    #Mul{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Div{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Valor2{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    #input2{
+        padding-left: 13vw;
+        padding-top: 10vw;
+        display: none;
+    }
+    
+    #igualdade{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 44%;
+        display: none;
+    }
+    
+    #resultado{
+        background-color:  rgb(3, 24, 207);
+        width: 40vw !important;
+        height: 6vw;
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;   
+        border-radius: 6vw ;
+        padding-bottom: 3vw;
+    }
+
+    #js{
+        position: absolute;
+        top: 66%;
+        left: 21%;
+    }
+    
+    .bntaux{
+        width: 20vw;
+       height: 6vw;
+       border: 0;
+       background-color: rgb(0, 4, 250);
+       color: white;
+       font-size: 3vw;
+       border-radius: 10vw;
+       cursor: pointer;
+       transition: 1s;
+       font-weight: bolder;
+    }
+    
+    .bntaux:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    .aux{
+        position: absolute;
+        top: 80%;
+        display: none;
+        left: 15%;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: rgb(211, 211, 211);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #MenuInicial{
+        background-color: lightseagreen;
+        border-radius: 2vw;
+        width: 70vw;
+        height: 90vw;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        box-shadow: 1vw -1vw 0 rgb(0, 106, 155);
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    #txt{
+        font-size: 7vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: white;
+        padding-left: 14vw;
+        padding-top: 5vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    #Botoes{
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .Operações{
+        height: 9vw;
+        background-color: rgb(32, 132, 178);
+        width: 100%;
+        font-size: 4.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 1s;
+        box-shadow: 0 0.5vw white, 0 -0.5vw white;
+        border: 0;
+    }
+    
+    .i{
+        padding-top: 5vw;
+    }
+    
+    .Operações:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    #txt1{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 26vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt2{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 21vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt4{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 25vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #txt3{
+        font-size: 5.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color:  rgb(0, 106, 155);
+        padding-left: 17vw;
+        padding-top: 0.5vw; 
+        display: none;
+    }
+    
+    #Valor1{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    
+    #input1{
+        padding-left: 13vw;
+        padding-top: 3vw;
+        display: none;
+    }
+    
+    #adi{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 33%;
+        display: none;
+    }
+    
+    #sub{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 9vw;
+        top: 26%;
+        display: none;
+    }
+    
+    #Mul{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Div{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 31%;
+        display: none;
+    }
+    
+    #Valor2{
+        background-color:  rgb(0, 13, 126);
+        border-radius: 6vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        color: white;
+        border: 0.2vw solid white;
+        text-align: center;
+        display: none;
+    }
+    
+    #input2{
+        padding-left: 13vw;
+        padding-top: 10vw;
+        display: none;
+    }
+    
+    #igualdade{
+        position: absolute;
+        left: 48%;
+        color: white;
+        font-size: 6vw;
+        top: 44%;
+        display: none;
+    }
+    
+    #resultado{
+        background-color:  rgb(3, 24, 207);
+        width: 40vw !important;
+        height: 6vw;
+        font-size: 2.5vw;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;   
+        border-radius: 6vw ;
+        padding-bottom: 3vw;
+    }
+
+    #js{
+        position: absolute;
+        top: 66%;
+        left: 21%;
+    }
+    
+    .bntaux{
+        width: 20vw;
+       height: 6vw;
+       border: 0;
+       background-color: rgb(0, 4, 250);
+       color: white;
+       font-size: 3vw;
+       border-radius: 10vw;
+       cursor: pointer;
+       transition: 1s;
+       font-weight: bolder;
+    }
+    
+    .bntaux:hover{
+        background-color: rgb(0, 13, 126);
+        transition: 1s;
+    }
+    
+    .aux{
+        position: absolute;
+        top: 80%;
+        display: none;
+        left: 15%;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: rgb(211, 211, 211);
+    }
+}
